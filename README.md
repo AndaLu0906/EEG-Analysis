@@ -1,14 +1,16 @@
 # EEG Analysis Tool
-A Python tool for analyzing EEG data from PhysioNet’s Motor Movement/Imagery Dataset.
+Analyzes EEG data from PhysioNet.
 
 ## Setup
-- Install: `pip3 install -r requirements.txt`
+- `pip3 install -r requirements.txt`
+- Download data: `python3 download_eeg.py` (~1.5 GB)
 - Run: `python3 eeg_analysis.py`
 
 ## Features
+- Downloads dataset (~50 min at 500 KB/s)
 - Loads EDF files
 - Filters 1-40 Hz
-- Visualizes raw data and PSD
+- Plots raw and PSD
 
-## Data Source
-[PhysioNet EEG Dataset](https://physionet.org/content/eegmmidb/1.0.0/)
+## Data
+[PhysioNet EEG](https://physionet.org/content/eegmmidb/)
