@@ -10,11 +10,11 @@ Analyzes EEG data from PhysioNet.
 - Downloads dataset (~50 min at 500 KB/s)
 - Loads EDF files
 - Filters 1-40 Hz
-- Plots raw and PSD
+- Plots raw and PSD in one figure
 
 ## Data
 [PhysioNet EEG](https://physionet.org/content/eegmmidb/)
 
 ## Example Output
-![Raw EEG Plot](raw_eeg.png)
-![PSD Plot](psd_plot.png)
+![EEG Analysis](eeg_analysis.png)
+
