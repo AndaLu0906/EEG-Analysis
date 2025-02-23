@@ -14,3 +14,6 @@ Analyzes EEG data from PhysioNet.
 
 ## Data
 [PhysioNet EEG](https://physionet.org/content/eegmmidb/)
+
+## Example Output
+![EEG Plot](plot.png)
